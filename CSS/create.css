@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    border-bottom:1px solid #777;
+    height:150px;
+    width: auto;
+
+}
+
+nav #logo{
+    float:left;
+    width: 7%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.right{
+    float:right;
+    margin-right: 50px;
+}
+
+.right a{
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 10px;
+    text-transform:capitalize ;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-family: "Roboto Serif",serif;
+    font-weight: 400;
+    margin-top: 48px;
+    border-radius: 25px;
+
+    transition: 0.5s;
+}
+
+a:hover{
+
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+h1{
+    margin-top: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Roboto Serif",serif;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+
+
+label{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    font-family: "Roboto Serif",serif;
+    font-weight: 500;
+}
+
+#foodid{
+    margin-left: 440px;
+    margin-top: 15px;
+    width: 440px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#proceed{
+    margin-top: 25px;
+    margin-left: 580px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Roboto Serif",serif;
+    padding: 10px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    width: 160px;
+    transition: 0.8s;
+    height: 50px;
+}
+
+#proceed:hover{
+    border-radius: 0px;
+    background: white;
+    color: #000;
+    transition: 0.8s;
+}

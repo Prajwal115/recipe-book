@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    border-bottom:1px solid #777;
+    height:150px;
+    width: auto;
+
+}
+
+nav #logo{
+    float:left;
+    width: 7%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.right{
+    float:right;
+    margin-right: 50px;
+}
+
+.right a{
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 10px;
+    text-transform:capitalize ;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-family: "Roboto Serif",serif;
+    font-weight: 400;
+    margin-top: 48px;
+    border-radius: 25px;
+
+    transition: 0.5s;
+}
+
+a:hover{
+
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Roboto Serif",serif;
+    font-weight: 700;
+}
+
+.main{
+    margin-left: 130px;
+    margin-top: 65px;
+}
+
+.main p{
+    font-size: 22px;
+    width:85%;
+    font-family: "Roboto Serif",serif;
+    font-style: italic;
+    font-weight: 500;
+}
+.theend{
+    margin-top: 120px;
+    display: inline-block;
+}
+.theend #rlog{
+    width: 7%;
+    float: left;
+    transform: translateY(-50%);
+    margin-right: 50px;
+}
+.theend #me{
+    width: 7%;
+    float: left;
+    transform: translateY(-50%);
+}
+
+.theend button{
+    cursor: pointer;
+    padding: 20px;
+    float:right;
+    margin-right: 250px;
+    transform: translateY(-40%);
+    background-color: black;
+    color:white;
+    font-size: 13px;
+    font-family: "Roboto Serif",serif;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid white;
+    transition: 0.7s;
+    
+}
+.theend button:hoveR{
+    background: white;
+    color: #000;
+    font-weight: 600;
+    border-radius: 0px;
+    border: 1px solid black;
+    transition: 0.7s;
+}

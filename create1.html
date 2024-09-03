@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book | Create</title>
+    <link rel="stylesheet" href="CSS/create1.css">
+</head>
+<style>
+    #foodtype{
+    margin-left: 440px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 440px;
+    font-family: "Roboto Serif",serif;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+</style>
+<nav>
+    <a href="index.html">
+        <img src="IMG/recilogo.jpg" id="logo">
+    </a>
+    <div class="right">
+        <a href="#search">Search Recipes</a>
+        <a href="create.html">Create/Add Recipe</a>
+        <a href="about.html">About this Site</a>
+    </div>
+</nav>
+<body>
+    <h1>Complete your recipe</h1>
+    <form action="create.php" method="POST" enctype="multipart/form-data">
+    <label for ="foodname">Enter name of your dish: </label>
+    <input type="text" name="foodname" id="foodname" placeholder="Enter Food Name: " required>
+    <label for ="fooddes">Enter description of your dish (1 line): </label>
+    <input type="text" name="fooddes" id="fooddes" placeholder="Enter Food Description: " required>
+    <label for ="foodtype">Enter food type (Starter/ Main Course/ Dessert): </label>
+    <input type="text" name="foodtype" id="foodtype" placeholder="Enter Food Type: " required>
+    <label for ="foodingr">Enter ingredients of your dish:</label>
+    <textarea type="text" name="foodingr" id="foodingr" placeholder="Enter Food Ingredients: " required></textarea>
+    <label for ="foodpro">Enter Procedure of your dish. When writing a new paragraph, write *** before starting: </label>
+    <textarea type="text" name="foodpro" id="foodpro" placeholder="Enter Food Procedure: " required></textarea>
+    
+    <label for="foodimage">Upload Food Image</label>
+    <input type="file" name="fimg" id = "fimg" accept="image/*" required>
+    
+    <button id = "submit" type="submit">Submit</button>
+</form>
+
+
+
+</body>
+</html>

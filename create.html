@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book | Create</title>
+    <link rel="stylesheet" href="CSS/create.css">
+</head>
+<nav>
+    <a href="index.html">
+        <img src="IMG/recilogo.jpg" id="logo">
+    </a>
+    <div class="right">
+        <a href="#search">Search Recipes</a>
+        <a href="create.html">Create/Add Recipe</a>
+        <a href="about.html">About this Site</a>
+    </div>
+</nav>
+<body>
+    <h1>Create/ Add your Recipe</h1>
+    <form action="doit.php" method="POST">
+    <label for ="foodit">Create a 3-4 letter ID for your food.</label>
+    <input type="text" name="foodid" id="foodid" placeholder="Enter FoodID: ">
+    <button id = "proceed" type="submit">Proceed</button>
+</form>
+
+    <script src="data.js"></script>
+    <script src="create.js"></script>
+</body>
+</html>

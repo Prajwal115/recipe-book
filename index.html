@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book | Home</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<style>
+    .main{
+        background: url("IMG/illus.png");
+    }
+</style>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="IMG/recilogo.jpg" id="logo">
+        </a>
+        <div class="right">
+            <a href="#search">Search Recipes</a>
+            <a href="create.html">Create/Add Recipe</a>
+            <a href="about.html">About this Site</a>
+        </div>
+    </nav>
+    <div class="main" id="main">
+
+
+    </div>
+    <div class="search" id="search">
+        <h1>Search the Recipes.</h1>
+        <h2 id = "des">Perfectly curated for your taste and health.</h2>
+        <form target="_self" method="post" action="index.html">
+            <input id="sea" name='sea' type="text" placeholder="Start Typing..." onkeyup="myFunction()">
+
+        </form>
+        <ul id="myUL">
+            <h2 id="noite">No Items Found :(</h2>
+
+        </ul>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

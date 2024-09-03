@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+nav{
+    border-bottom:1px solid #777;
+    height:150px;
+    width: auto;
+
+}
+
+nav #logo{
+    float:left;
+    width: 7%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.right{
+    float:right;
+    margin-right: 50px;
+}
+
+.right a{
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 10px;
+    text-transform:capitalize ;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-family: "Roboto Serif",serif;
+    font-weight: 400;
+    margin-top: 48px;
+    border-radius: 25px;
+
+    transition: 0.5s;
+}
+
+a:hover{
+
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.main{
+    margin-left: 110px;
+}
+
+.main #foodname{
+    font-size: 60px;
+    font-family: "Roboto Serif",serif;
+    font-weight: 700;
+}
+.main #desc{
+    font-size: 20px;
+   margin-top: -35px;
+    font-family: "Roboto Serif",serif;
+    font-weight: 500;
+    font-style: italic;
+} 
+
+.main #homeimage{
+    width: 500px;
+    margin-top: 20px;
+    height: 270px;
+    object-fit: cover;
+}
+.main #time{
+    font-size: 15px;
+    margin-bottom: 20px;
+     font-family: "Roboto Serif",serif;
+     font-weight: 400;
+
+}
+
+#ing{
+    font-family: "Roboto Serif",serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.main #ingr{
+    font-size: 17px;
+    width: 60%;
+    font-family: "Roboto Serif",serif;
+    font-weight: 500;
+}
+#proce{
+    font-family: "Roboto Serif",serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.main p{
+    font-size: 17px;
+    width: 70%;
+    font-family: "Roboto Serif",serif;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 25px;
+    height: 80px;
+    color:black;
+    margin-left: 110px;
+    font-family: "Roboto Serif",serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
